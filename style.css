@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 1280px;
+    height: 45px;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.head-left {
+    width: 300px;
+    height: 45px;
+    object-fit: contain;
+}
+.head-left img {
+    width: 150px;
+    height: 45px;
+}
+.head-mid input {
+    width: 500px;
+    height: 25px;
+
+    margin-top: 8.5px;
+}
+.search-btn {
+    height: 28px;
+    width: 50px;
+    background-color: rgb(4, 204, 4);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.head-right {
+    width: 220px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+     margin-top: 5px;
+}
+.btn-1 {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-1 img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin-left: -7px;
+    margin-top: -3px;
+}
+.btn-2 {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-2 p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-3 {
+    width: 60px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-3 p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner {
+    margin: 0 auto;
+}
+.banner img{
+    width: 1350px;
+}
+
+/* =========section=========== */
+.container{
+    width: 1320px;
+    margin: 120px auto 50px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.card {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+.card:hover{
+    box-shadow: 0 4px 10px rgb(1, 228, 1);
+    transform: scale(0.97);
+    transition: all 0.1s ease-in;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+.card h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 7px 5px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.grey{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+.cost {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.call {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call img{
+    width: 23px;
+    height: 23px;
+}
+
+.letter{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter img{
+    width: 23px;
+    height: 23px;
+}
+
+.fav{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fav img{
+    width: 23px;
+    height: 23px;
+}
+.chat{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+}
+.btns {
+    width: 250px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===========footer========== */
+
+.san {
+    width: 180px;
+    height: 30px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 8px;
+}
+.san button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.foot {
+    margin-bottom: 20px;
+}
